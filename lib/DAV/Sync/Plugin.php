@@ -27,7 +27,7 @@ class Plugin extends DAV\ServerPlugin {
      */
     protected $server;
 
-    const SYNCTOKEN_PREFIX = 'data:,0-';
+    const SYNCTOKEN_PREFIX = 'data:;base64,';
 
     /**
      * Returns a plugin name.
