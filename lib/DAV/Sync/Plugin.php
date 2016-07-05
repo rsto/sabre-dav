@@ -27,7 +27,7 @@ class Plugin extends DAV\ServerPlugin {
      */
     protected $server;
 
-    const SYNCTOKEN_PREFIX = 'http://sabre.io/ns/sync/';
+    const SYNCTOKEN_PREFIX = 'data:,0-';
 
     /**
      * Returns a plugin name.
