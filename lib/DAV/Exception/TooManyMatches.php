@@ -19,7 +19,7 @@ use Sabre\DAV;
  * @copyright Copyright (C) fruux GmbH (https://fruux.com/)
  * @license http://sabre.io/license/ Modified BSD License
  */
-class TooManyMatches extends Forbidden {
+class TooManyMatches extends InsufficientStorage {
 
     /**
      * This method allows the exception to include additional information into the WebDAV error response
